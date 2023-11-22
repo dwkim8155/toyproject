@@ -1,0 +1,22 @@
+#result {
+  display: none;
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultName {
+  font-size: 15px;
+  text-decoration: underline;
+  
+}
+
+.resultDesc {
+  font-size: 20px;
+}
+
+
+h1 {
+  margin-top: 5px;
+}
