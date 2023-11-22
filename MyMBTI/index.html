@@ -25,6 +25,12 @@
   <link rel="stylesheet" href="./css/result.css">
   <link rel="stylesheet" href="./css/animation.css">
   <title>십이간지 연애유형</title>
+  <script src="https://t1.kakaocdn.net/kakao_js_sdk/${VERSION}/kakao.min.js"
+  integrity="${INTEGRITY_VALUE}" crossorigin="anonymous"></script>
+  <script>
+    Kakao.init('f8f6cac9f8333b895c17977b3d86bfa2');
+    console.log(Kakao.isInitialized());
+  </script>
 </head>
 <body>
   <div class="container">
@@ -38,7 +44,7 @@
         아래 시작하기 버튼을 눌러<br>
         시작해주세요!
       </p> 
-      <button type="button" class="btn btn-outline-success btn-lg mt-3" onclick="begin()">시작하기</button>
+      <button type="button" class="btn btn-outline-success btn-lg mt-3" onclick="js:begin()">시작하기</button>
     </section>
     
     <section id="qna">
@@ -69,10 +75,11 @@
 
       </div>
 
-      <button type="button" class="btn btn-outline-warning my-4" >공유하기</button>
+      <button type="button" class="btn btn-outline-warning my-4" onclick="js:kakaoShare()" >공유하기</button>
     </section>
   </div>
   <script src="./js/data.js"></script>
   <script src="./js/start.js"></script>
+  <script src="./js/share.js"></script>
 </body>
 </html>
