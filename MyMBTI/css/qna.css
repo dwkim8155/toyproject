@@ -6,8 +6,10 @@
   background-color: whitesmoke;
   text-align: center;
   border-radius: 20px;
-  font-size: 24px;
+  font-size: 15px;
   width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .aButton {
@@ -16,7 +18,7 @@
   display: block;
   width: 80%;
   border: 0px;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .aButton:hover, .aButton:focus {
@@ -37,3 +39,4 @@
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feccb1+0,f17432+50,ea5507+100,feccb1+100,fb955e+100 */
   background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 100%,#feccb1 100%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
 }
+
